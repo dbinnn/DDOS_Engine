@@ -2,10 +2,6 @@
 
 Projeto Python que reúne módulos de geração de tráfego de rede, manutenção de conexões TCP e monitoramento HTTP. O código organiza essas tarefas usando threads e programação assíncrona.
 
-Este README descreve a versão presente no arquivo enviado. As funcionalidades abaixo foram identificadas por leitura estática do código; não foram executados testes de tráfego nem comprovada a capacidade de indisponibilizar serviços.
-
-> O programa contém rotinas de negação de serviço e destinos externos predefinidos. Qualquer avaliação prática exige um ambiente isolado e autorização sobre todos os sistemas envolvidos. Esta documentação apresenta a arquitetura e suas limitações, sem um roteiro de execução de ataques.
-
 ## Visão geral
 
 O projeto possui dois pontos de entrada independentes:
