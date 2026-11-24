@@ -131,21 +131,4 @@ O pacote não inclui `requirements.txt`, `pyproject.toml`, versões fixadas de d
 - Sem comprovação de amplificação, indisponibilidade ou recuperação do destino.
 - Tratamento silencioso de erros em várias rotinas, dificultando o diagnóstico.
 
-## Publicação no GitHub
 
-Coloque este arquivo como `README.md` na raiz do repositório. Publique apenas arquivos revisados e remova caches, ambientes virtuais e dados locais. O pacote recebido não contém um arquivo de licença; esta documentação não concede uma licença ao código.
-
-Para excluir artefatos locais do versionamento, um `.gitignore` pode conter:
-
-```gitignore
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.env
-*.log
-```
-
-## Escopo desta documentação
-
-Documento elaborado a partir da leitura dos arquivos Python presentes no pacote fornecido. O código-fonte não foi alterado e as rotinas de tráfego não foram executadas. Os nomes de classes, comentários e mensagens do terminal foram comparados com a implementação para distinguir intenções declaradas de funcionalidades efetivamente presentes.
